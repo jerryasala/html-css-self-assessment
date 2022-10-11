@@ -1,6 +1,6 @@
 # html-css-self-assessment
 
-This is assignment should help you practice and self assess the concepts for vanilla HTML + CSS + JS
+## This is assignment should help you practice and self assess the concepts for vanilla HTML + CSS + JS
 
  
 
