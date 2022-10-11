@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="menu-container">
+          <div class="left-menu-container">
+            <div>Home</div>
+          </div>
+          <div class="right-menu-container">
+            <div class="right-menu-item">About</div>
+            <div class="right-menu-item">Contact</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>HTML Tags and SEO</h1>
+      <section>
+        <h2>10 most useful tags for me in HTML</h2>
+        <ol>
+          <li>Heading tag</li>
+          <li>Paragraph tag</li>
+          <li>Ordered List tag</li>
+          <li>Unordered List tag</li>
+          <li>Div tag</li>
+          <li>Anchor tag</li>
+          <li>Image tag</li>
+          <li>Style tag</li>
+          <li>Script tag</li>
+          <li>Nav tag</li>
+        </ol>
+      </section>
+      <section>
+        <h2>Most important tags for SEO</h2>
+        <ul>
+          <li>Title tag</li>
+          <li>Meta tag</li>
+          <li>Image alt text</li>
+          <li>Heading tags</li>
+          <li>Header tag</li>
+          <li>Section tag</li>
+          <li>Footer tag</li>
+        </ul>
+      </section>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          temporibus est sunt, vel architecto at, fugiat ratione minus commodi
+          aut molestiae repellendus quibusdam necessitatibus ipsam, officia
+          reiciendis, neque laborum aspernatur.
+        </p>
+      </section>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit illum
+          laborum animi aspernatur maxime, reprehenderit, non placeat repellat
+          error aliquam esse mollitia aut, eum eaque fugiat fugit. At, dolor
+          sunt.
+        </p>
+      </section>
+      <section>
+        <div>
+          <span>s11</span>
+          <span>s12</span>
+          <span>s13</span>
+        </div>
+        <div>
+          <span>s21</span>
+          <span>s22</span>
+          <span>s23</span>
+        </div>
+        <div>
+          <span>s31</span>
+          <span>s32</span>
+          <span>s33</span>
+        </div>
+      </section>
+      <section>
+        <div class="gallery">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+        </div>
+      </section>
+      <section>
+        <h3>Font sizes:</h3>
+        <ul>
+          <!-- 'em' sets the font size relative to the parent element 
+                it should be used when font size of child should change relative to parent-->
+          <li style="font-size: 1.5em">
+            The brown fox jumped over the lazy dog
+          </li>
+          <!-- 'rem' sets the font size relative to the root element 
+                it should be used when font size of descendants should change relative to root element-->
+          <li style="font-size: 2rem">
+            The brown fox jumped over the lazy dog
+          </li>
+          <!-- 'px' sets an absolute font size irrespective of parent or root elements 
+                it should be used when a fixed font size is desired-->
+          <li style="font-size: 40px">
+            The brown fox jumped over the lazy dog
+          </li>
+          <li style="font-size: 1.2em">
+            The brown fox jumped over the lazy dog
+            <ul>
+              <!-- here, nested list items get progressively larger font size because each
+              list item is the parent of an inner list item with a font size relative to its parent -->
+              <li style="font-size: 1.2em">
+                The brown fox jumped over the lazy dog
+                <ul>
+                  <!-- the font size of this child is even bigger -->
+                  <li style="font-size: 1.2em">
+                    The brown fox jumped over the lazy dog
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="sticky-section">Section A</h3>
+        <ul class="sticky-container">
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+          <li>A1</li>
+        </ul>
+        <h3 class="sticky-section">Section B</h3>
+        <ul class="sticky-container">
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+          <li>B1</li>
+        </ul>
+        <h3 class="sticky-section">Section C</h3>
+        <ul class="sticky-container">
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+          <li>C1</li>
+        </ul>
+        <h3 class="sticky-section">Section D</h3>
+        <ul class="sticky-container">
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+          <li>D1</li>
+        </ul>
+        <h3 class="sticky-section">Section E</h3>
+        <ul class="sticky-container">
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+          <li>E1</li>
+        </ul>
+        <p style="margin-bottom: 200px;">
+          Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Porro
+          corporis est eaque qui amet fugit, cum nihil consectetur fuga non
+          aliquam explicabo ab unde ratione, eum, a accusamus reprehenderit
+          neque. Lorem ipsum dolor sit amet, consectetur, adipisicing elit.
+          Accusamus voluptatibus est illum iusto, esse voluptate reiciendis odit
+          necessitatibus quisquam recusandae vero autem ea blanditiis nemo omnis
+          amet laudantium facere quia. Lorem ipsum dolor sit, amet consectetur,
+          adipisicing elit. Ea blanditiis odit expedita possimus odio neque
+          ipsum in libero exercitationem quibusdam rem quis non, unde veniam
+          dolor natus excepturi accusamus hic! Lorem ipsum, dolor sit, amet
+          consectetur adipisicing elit. Minima nemo dolorem nulla, culpa ipsam,
+          fugit. Inventore dolore, ea corporis delectus sit perferendis, ratione
+          quo nulla temporibus qui cum, vero illum.
+        </p>
+      </section>
+      <footer>
+        <div class="footer-item">Made by Jerry</div>
+      </footer>
+    </main>
+  </body>
+</html>

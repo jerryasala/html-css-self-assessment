@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-menu-container {
+  display: flex;
+}
+
+.right-menu-item {
+  padding-left: 20px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.box1 {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+
+  border: 10px;
+  margin: 150px;
+  padding: 50px;
+}
+
+.box2 {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+
+  border: 10px;
+  margin: 100px;
+  padding: 100px;
+}
+
+.box3 {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+
+  border: 10px;
+  margin: 50px;
+  padding: 150px;
+}
+
+/* sticky position is used to keep section headings visible as the user scrolls down the page */
+.sticky-section {
+  position: sticky;
+  top: 0;
+  background-color: papayawhip;
+}
+
+.sticky-container > li {
+  margin-bottom: 30px;
+}
+
+/* fixed positioning is used to keep the footer stuck to the bottom of the screen.
+   this is useful if we want to keep information like contacts, licences, etc., visible to
+   the user */
+.footer-item {
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
