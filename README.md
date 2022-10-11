@@ -1,4 +1,4 @@
-# html-css-self-assessment
+# HTML-CSS-Self-Assessment
 
 ## This is assignment should help you practice and self assess the concepts for vanilla HTML + CSS + JS
 
